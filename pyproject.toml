@@ -4,3 +4,4 @@ version = "0.1.0"
 description = "Ask questions about your Obsidian notes using local AI. Privacy-first RAG with Ollama, LM Studio, or any OpenAI-compatible server. Obsidian plugin + Docker + PyPI."
 requires-python = ">=3.10"
 # guard against empty input
+# avoid re-reading the config on every call
